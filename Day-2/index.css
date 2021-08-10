@@ -1,0 +1,19 @@
+.flex-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: chartreuse;
+    align-items: center;
+    height: 300px;
+}
+.para-main{
+    padding: 20px;
+    background-color: darkcyan;
+    border:2px solid black;
+    margin:10px;
+}
+.style{
+        align-self: stretch;
+        width: 300px;
+        text-align: center;
+    }
