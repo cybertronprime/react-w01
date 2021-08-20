@@ -124,3 +124,18 @@ const newArr1=[
 ];
 
 console.log(newArr1[2])
+
+console.log("Hello 1")
+console.log("Hello 2")
+console.log("Hello 3")
+
+setTimeout(()=>{
+  console.log("this is running after 5 seconds")
+},5000)
+console.log("Hello-4 ")
+for(let i=0;i<10000;i++)
+{
+  console.log("Hello Once Again ")
+}
+
+
