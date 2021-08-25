@@ -1,0 +1,27 @@
+.home{
+    max-width: 1200px;
+    margin: auto;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+  
+    
+    
+}
+.card{
+    padding: 20px 25px;
+    background-color: rgb(250, 249, 244);
+    box-shadow: 2px 5px 10px rgba(0,0,0,.1);
+    border-radius: 5px;
+    margin-right: 35px;
+}
+.bxl-aws{
+    font-size: 65px;
+    color: crimson;
+}
+.card .heading{
+    font-size: 35px;
+    margin-bottom: 15px;
+}

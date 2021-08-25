@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import HomePage from "./pages/homePage/HomePage";
 
 function App() {
   //js code
+  //Routes Creation
+
   return (
     <div className="App">
-    <p>This is my first react code</p>
+      <HomePage />
     </div>
   );
 }
