@@ -1,5 +1,6 @@
 import "./index.css";
 import Card from "./Card";
+import {Link} from 'react-router-dom'
 
 const HomePage = () => {
   //JSX COMPONENT
@@ -38,6 +39,7 @@ const HomePage = () => {
             />
           );
         })}
+        <Link to="/">Go to homepage </Link>
 
       </div>
     </div>
@@ -45,3 +47,6 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
+
+

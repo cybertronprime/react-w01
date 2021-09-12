@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+.resize-image{
+  width: 300px;
+  height: 300px;
+}
+.img-container{
+
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ 
+  grid-gap: 20px;
+}

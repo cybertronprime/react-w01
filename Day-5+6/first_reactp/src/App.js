@@ -1,5 +1,7 @@
 import "./App.css";
-import HomePage from "./pages/homePage/HomePage";
+import HooksPage from "./pages/HooksPage";
+import homePage from './pages/homePage/HomePage'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   //js code
@@ -7,7 +9,13 @@ function App() {
 
   return (
     <div className="App">
-      <HomePage />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={HooksPage} />
+          <Route exact path="/home" component={homePage} />
+        </Switch>
+      </Router>
+
     </div>
   );
 }

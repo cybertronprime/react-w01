@@ -1,3 +1,13 @@
+
+/* .lightMode{
+    --primaryColor:crimson;
+
+} */
+.darkMode{
+    --primaryColor:rgb(204, 185, 189);
+    
+}
+
 .home{
     max-width: 1200px;
     margin: auto;
@@ -19,7 +29,7 @@
 }
 .bxl-aws{
     font-size: 65px;
-    color: crimson;
+    color:  var(--primaryColor)
 }
 .card .heading{
     font-size: 35px;
