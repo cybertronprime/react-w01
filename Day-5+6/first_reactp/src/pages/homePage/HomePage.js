@@ -1,6 +1,6 @@
 import "./index.css";
 import Card from "./Card";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   //JSX COMPONENT
@@ -29,9 +29,13 @@ const HomePage = () => {
   return (
     <div className="home">
       <div className="card-container">
+        <div className="btn-containers">
+          
+
+        </div>
         {newArray.map((item, index) => {
           console.log(item, index);
-         return (
+          return (
             <Card
               heading1={item.heading}
               paragraph1={item.paragraph}
@@ -40,13 +44,9 @@ const HomePage = () => {
           );
         })}
         <Link to="/">Go to homepage </Link>
-
       </div>
     </div>
   );
 };
 
 export default HomePage;
-
-
-
